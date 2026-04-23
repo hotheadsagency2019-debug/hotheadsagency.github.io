@@ -68,13 +68,13 @@ function BHero() {
             <span>For Chrome</span>
           </div>
           <h1 style={bStyles.heroH1}>
-            Fifty tabs.<br/>
-            <em style={bStyles.heroEm}>One click</em> of order.
+            Your Chrome tabs —<br/>
+            <em style={bStyles.heroEm}>organized</em> by AI.
           </h1>
           <p style={bStyles.heroSub}>
-            Tab Manager AI reads your tabs and groups them the way you ask —
-            by domain, by project, work away from entertainment.
-            Then it gets out of the way.
+            Tab Manager AI is a Chrome tab manager extension that reads your open tabs
+            and groups them by domain, project, or topic — the way you describe.
+            Save all open tabs, restore browser sessions, export anytime. No account required.
           </p>
           <div style={bStyles.heroCtas}>
             <a href="https://chromewebstore.google.com/detail/tab-manager-ai-%E2%80%94-smart-ta/cpmfimlgpampehokljfcfjcdoknmjpdn" target="_blank" rel="noopener" style={bStyles.ctaPrimary}>
@@ -93,11 +93,11 @@ function BHero() {
             </div>
             <div style={bStyles.heroFact}>
               <div style={bStyles.heroFactBig}>15</div>
-              <div style={bStyles.heroFactLabel}>free AI groupings / month</div>
+              <div style={bStyles.heroFactLabel}>free AI tab groupings / month</div>
             </div>
             <div style={bStyles.heroFact}>
               <div style={bStyles.heroFactBig}>4</div>
-              <div style={bStyles.heroFactLabel}>export formats</div>
+              <div style={bStyles.heroFactLabel}>formats to export Chrome tabs</div>
             </div>
           </div>
         </div>
@@ -107,7 +107,7 @@ function BHero() {
             <span>The browser action — Tab Manager AI popup</span>
           </div>
           <div style={bStyles.heroPopupCard}>
-            <img src="assets/popup.png" alt="Popup" style={{width: '100%', display: 'block'}} />
+            <img src="assets/popup.png" alt="Tab Manager AI Chrome extension popup — AI tab organizer interface" style={{width: '100%', display: 'block'}} />
           </div>
         </div>
       </div>
@@ -145,21 +145,21 @@ function BTicker() {
 
 function BFeaturesEditorial() {
   const items = [
-    { n: '01', t: 'AI Grouping', d: 'One click. AI sorts 100 tabs by category, domain, or project. You tell it what you want.' },
-    { n: '02', t: 'Unlimited Collections', d: 'Tag, pin, drag. Reorder everything. There is no cap on how many you can keep.' },
-    { n: '03', t: 'Full History', d: 'Every action is tracked. Ctrl+Z walks it back. Ctrl+Y puts it forward. Sessions restore in one click.' },
-    { n: '04', t: 'Export, Four Ways', d: 'JSON. CSV. Markdown. TXT. Move your data between devices or hand it off to a teammate.' },
-    { n: '05', t: 'Privacy, By Design', d: 'Local storage. No account. No tracking. AI sends only tab titles and URLs — never content.' },
-    { n: '06', t: 'Keyboard + Theme', d: 'Auto-detect dark mode. Resizable panels. Shortcuts for the things you do constantly.' },
+    { n: '01', t: 'AI Tab Grouping', d: 'One click. GPT-4o-mini sorts 100 open tabs by category, domain, or project. You tell it how.' },
+    { n: '02', t: 'Unlimited Tab Collections', d: 'Tag, pin, drag. Reorder everything. No cap on how many tab collections you keep.' },
+    { n: '03', t: 'Full History & Session Restore', d: 'Every action tracked. Ctrl+Z walks it back. Ctrl+Y puts it forward. Restore browser sessions in one click.' },
+    { n: '04', t: 'Export Chrome Tabs — 4 Formats', d: 'JSON. CSV. Markdown. TXT. Backup chrome tabs or share them with a teammate.' },
+    { n: '05', t: 'Privacy-First Tab Manager', d: 'Local storage only. No account. No tracking. AI sees only tab titles and URLs — never your content.' },
+    { n: '06', t: 'Dark Mode & Shortcuts', d: 'Auto-detect dark mode. Resizable panels. Keyboard shortcuts for the things you do constantly.' },
   ];
   return (
     <section id="features" style={bStyles.features}>
       <div style={bStyles.sectionHeadLeft}>
         <div style={bStyles.eyebrow}><span style={bStyles.eyebrowBar}/> Features</div>
         <h2 style={bStyles.h2Big}>
-          Built for people with<br/>
-          <em style={bStyles.accentEm}>sixty tabs open</em><br/>
-          and a meeting in five minutes.
+          AI-Powered Chrome<br/>
+          <em style={bStyles.accentEm}>Tab Manager</em><br/>
+          Extension Features.
         </h2>
       </div>
       <div style={bStyles.featGrid}>
@@ -184,12 +184,12 @@ function BAIDeepDive() {
       <div style={bStyles.ddGrid}>
         <div style={bStyles.ddTextCol}>
           <h2 style={bStyles.ddH2}>
-            Tell the AI<br/>
-            what you want.
+            How AI tab<br/>
+            grouping works.
           </h2>
           <p style={bStyles.ddLead}>
-            Hit <b>AI Group Tabs</b>. The AI reads your tab titles and URLs,
-            then groups them the way you describe. Nothing else leaves your browser.
+            Hit <b>AI Group Tabs</b>. The Chrome tab organizer reads your tab titles and URLs,
+            then groups them exactly the way you describe. Nothing else leaves your browser.
           </p>
           <div style={bStyles.promptCard}>
             <div style={bStyles.promptCardHead}>
@@ -206,14 +206,14 @@ function BAIDeepDive() {
             </ul>
           </div>
           <div style={bStyles.limitCallout}>
-            <b style={{color: B_INK, fontSize: 15}}>15 free groupings / month.</b>{' '}
+            <b style={{color: B_INK, fontSize: 15}}>15 free AI tab groupings / month.</b>{' '}
             <span style={{color: '#6b6a60'}}>Unlimited on Pro — $3 / mo.</span>
           </div>
         </div>
         <div style={bStyles.ddVisualCol}>
           <div style={bStyles.figureTag}>Fig. 02 — AI in action</div>
           <div style={bStyles.ddMockShell}>
-            <img src="assets/popup.png" alt="AI" style={{width: '100%', display: 'block'}} />
+            <img src="assets/popup.png" alt="AI tab organizer grouping Chrome tabs in one click" style={{width: '100%', display: 'block'}} />
           </div>
         </div>
       </div>
@@ -229,18 +229,18 @@ function BCollectionsDeepDive() {
         <div style={bStyles.ddVisualCol}>
           <div style={bStyles.figureTag}>Fig. 03 — Manager view</div>
           <div style={bStyles.ddMockShell}>
-            <img src="assets/manager.png" alt="Manager" style={{width: '100%', display: 'block'}} />
+            <img src="assets/manager.png" alt="Tab Manager AI collections manager — save and restore browser sessions" style={{width: '100%', display: 'block'}} />
           </div>
         </div>
         <div style={bStyles.ddTextCol}>
           <h2 style={bStyles.ddH2}>
-            Manual control<br/>
-            <em style={bStyles.accentEm}>as strong</em> as the AI.
+            Save all open tabs<br/>
+            &amp; <em style={bStyles.accentEm}>restore</em> browser sessions.
           </h2>
           <p style={bStyles.ddLead}>
             Drag tabs between collections. Pin the ones you open daily.
             Tag and comment. Close the browser, open it tomorrow —
-            everything is exactly where you left it.
+            every tab group and browser session is exactly where you left it.
           </p>
           <div style={bStyles.pairList}>
             {[
@@ -270,13 +270,13 @@ function BPrivacyDeepDive() {
       <div style={bStyles.ddGrid}>
         <div style={bStyles.ddTextCol}>
           <h2 style={bStyles.ddH2}>
-            We don't have servers<br/>
-            — so we <em style={bStyles.accentEm}>can't lose</em> your data.
+            Export &amp; backup<br/>
+            your <em style={bStyles.accentEm}>Chrome tabs</em> — safely.
           </h2>
           <p style={bStyles.ddLead}>
-            Every collection lives in your browser's local storage.
-            The AI sees only tab titles and URLs, and only when
-            you press the button. Export the whole thing into a file whenever.
+            Every collection lives in your browser's local storage — not on our servers.
+            The AI sees only tab titles and URLs, only when you press the button.
+            Export and backup your Chrome tabs to any format whenever you need.
           </p>
           <div style={bStyles.formatsRow}>
             {formats.map((f, i) => (
@@ -296,7 +296,7 @@ function BPrivacyDeepDive() {
         <div style={bStyles.ddVisualCol}>
           <div style={bStyles.figureTag}>Fig. 04 — Export</div>
           <div style={bStyles.ddMockShell}>
-            <img src="assets/export.png" alt="Export" style={{width: '100%', display: 'block'}} />
+            <img src="assets/export.png" alt="Export Chrome tabs in JSON, CSV, Markdown, TXT formats" style={{width: '100%', display: 'block'}} />
           </div>
         </div>
       </div>
@@ -316,8 +316,8 @@ function BForWhom() {
       <div style={bStyles.sectionHeadLeft}>
         <div style={bStyles.eyebrow}><span style={bStyles.eyebrowBar}/> Reader Profiles</div>
         <h2 style={bStyles.h2Big}>
-          Four ways people<br/>
-          <em style={bStyles.accentEm}>actually use it.</em>
+          Who uses this<br/>
+          <em style={bStyles.accentEm}>Chrome tab organizer?</em>
         </h2>
       </div>
       <div style={bStyles.profileList}>
@@ -335,18 +335,18 @@ function BForWhom() {
 
 function BHowItWorks() {
   const steps = [
-    { t: 'Install', d: 'One click from the Chrome Web Store.' },
-    { t: 'Organize', d: 'Press AI Group, or drag & drop yourself.' },
-    { t: 'Save', d: 'Export, back up, or move across devices.' },
-    { t: 'Boost', d: 'A calmer, faster, more focused browser.' },
+    { t: 'Install', d: 'Add the chrome tab manager extension from the Web Store — one click, no account.' },
+    { t: 'Organize', d: 'Press AI Group Tabs or drag & drop open tabs into collections yourself.' },
+    { t: 'Save', d: 'Save all open tabs, backup chrome tabs, or export across devices in 4 formats.' },
+    { t: 'Restore', d: 'Restore previous browser sessions in one click — every tab group preserved.' },
   ];
   return (
     <section id="how" style={bStyles.how}>
       <div style={bStyles.sectionHeadLeft}>
         <div style={bStyles.eyebrow}><span style={bStyles.eyebrowBar}/> How It Works</div>
         <h2 style={bStyles.h2Big}>
-          From chaos to order<br/>
-          <em style={bStyles.accentEm}>in four steps.</em>
+          How to set up your<br/>
+          <em style={bStyles.accentEm}>AI tab organizer</em> in Chrome.
         </h2>
       </div>
       <div style={bStyles.howGrid}>
@@ -377,8 +377,8 @@ function BPricing() {
       <div style={bStyles.sectionHeadLeft}>
         <div style={bStyles.eyebrow}><span style={bStyles.eyebrowBar}/> Pricing</div>
         <h2 style={bStyles.h2Big}>
-          Free forever.<br/>
-          <em style={bStyles.accentEm}>Pro</em> when you need more.
+          Free Chrome tab manager.<br/>
+          <em style={bStyles.accentEm}>Pro</em> when you need more AI.
         </h2>
       </div>
       <div style={bStyles.toggleWrap}>
@@ -461,11 +461,11 @@ function BFinalCTA() {
       <div style={bStyles.finalInner}>
         <div style={bStyles.finalEyebrow}>Last page</div>
         <h2 style={bStyles.finalH2}>
-          Stop wrestling<br/>
-          with sixty tabs.
+          The best Chrome tab<br/>
+          organizer. Free.
         </h2>
         <p style={bStyles.finalSub}>
-          Start organizing in thirty seconds. Free forever.
+          Install the AI tab manager extension and organize all open tabs in thirty seconds. Free forever.
         </p>
         <a href="https://chromewebstore.google.com/detail/tab-manager-ai-%E2%80%94-smart-ta/cpmfimlgpampehokljfcfjcdoknmjpdn" target="_blank" rel="noopener" style={bStyles.finalCtaBtn}>
           <ChromeIconB light />
